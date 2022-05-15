@@ -66,7 +66,7 @@ Array(200).fill().forEach(addStar);
 // Background
 
 const spaceTexture = new THREE.TextureLoader().load(
-  "https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  "https://images.unsplash.com/photo-1604076913837-52ab5629fba9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60"
 );
 scene.background = spaceTexture;
 
