@@ -1,11 +1,16 @@
 @import url("https://use.typekit.net/jmk3xov.css");
-
+*{
+  box-sizing: border-box;
+}
 canvas {
   position: fixed;
   top: 0;
   left: 0;
 }
-
+p{
+  color: black;
+  font-weight: 800;
+}
 
 :root {
   --dark-bg: rgba(15, 15, 15, 0.95);
@@ -81,12 +86,28 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
+  @media (max-width:770px) {
+    .left {
+      grid-column: 8/12;
+    }
+  }
   a{
    text-decoration: none;
-   color: gray;
-   border: 1px solid white;
+   color: rgb(61, 226, 61);
+   border: 1px dotted black;
 
   }
   a:hover{
     color: rgb(172, 1, 172);
+  }
+  @media (max-width: 700px) {
+    h1{
+      font-size: 1rem;
+      
+
+    }
+    canvas{
+      width: 80%;
+    }
+
   }
