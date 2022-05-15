@@ -65,12 +65,16 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load("space.jpg");
+const spaceTexture = new THREE.TextureLoader().load(
+  "https://images.pexels.com/photos/949587/pexels-photo-949587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+);
 scene.background = spaceTexture;
 
 // Avatar
 
-const jeffTexture = new THREE.TextureLoader().load("jeff.png");
+const jeffTexture = new THREE.TextureLoader().load(
+  "https://pbs.twimg.com/media/FR5VyKHUcAAR9xz?format=jpg&name=large"
+);
 
 const jeff = new THREE.Mesh(
   new THREE.BoxGeometry(3, 3, 3),
@@ -81,8 +85,12 @@ scene.add(jeff);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load("moon.jpg");
-const normalTexture = new THREE.TextureLoader().load("normal.jpg");
+const moonTexture = new THREE.TextureLoader().load(
+  "https://solarsystem.nasa.gov/system/feature_items/images/131_Space_Station_Sun_Transit-800x600.jpg"
+);
+const normalTexture = new THREE.TextureLoader().load(
+  "https://solarsystem.nasa.gov/system/feature_items/images/131_Space_Station_Sun_Transit-800x600.jpg"
+);
 
 const moon = new THREE.Mesh(
   new THREE.SphereGeometry(3, 32, 32),
