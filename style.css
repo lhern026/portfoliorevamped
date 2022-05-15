@@ -79,3 +79,12 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
+  a{
+   text-decoration: none;
+   color: gray;
+   border: 1px solid white;
+
+  }
+  a:hover{
+    color: rgb(172, 1, 172);
+  }
