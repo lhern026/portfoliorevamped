@@ -88,7 +88,7 @@ canvas {
   }
   @media (max-width:770px) {
     .left {
-      grid-column: 8/12;
+      grid-column: 1/12;
     }
   }
   a{
